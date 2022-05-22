@@ -1,2 +1,2 @@
 # lu-vumc-devops.calculator
-Calculator in Python
+Calculator in Python.
