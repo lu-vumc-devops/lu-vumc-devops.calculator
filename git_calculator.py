@@ -1,4 +1,5 @@
 # Program make a simple calculator
+# BEGIN DATE: 23.05.2022
 
 # This function adds two numbers
 def add(x, y):
@@ -52,3 +53,6 @@ while True:
     
     else:
         print("Invalid Input")
+
+
+# END DATE: 23.05.2022
