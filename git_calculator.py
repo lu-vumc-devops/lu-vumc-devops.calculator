@@ -2,7 +2,7 @@
 # BEGIN DATE: 23.05.2022
 
 # This function adds two numbers
-def add(x, y):
+def add(A, y):
     return x + y
 
 # This function subtracts two numbers
@@ -17,16 +17,21 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
+# This function takes square
+def divide(x):
+    return x
+
 
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
+print("5.Sqrt")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/3/4/5): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
@@ -44,6 +49,9 @@ while True:
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
+            
+        elif choice == '5':
+            print(sqrt(num1))
         
         # check if user wants another calculation
         # break the while loop if answer is no
