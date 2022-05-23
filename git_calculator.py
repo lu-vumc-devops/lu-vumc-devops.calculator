@@ -16,12 +16,17 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
+# This function takes square
+def divide(x):
+    return x
+
 
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
+print("5.Sqrt")
 
 while True:
     # take input from the user
@@ -43,6 +48,9 @@ while True:
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
+            
+        elif choice == '5':
+            print(sqrt(num1))
         
         # check if user wants another calculation
         # break the while loop if answer is no
