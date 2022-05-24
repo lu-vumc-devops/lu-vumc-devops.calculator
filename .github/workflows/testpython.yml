@@ -1,7 +1,7 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  check-bats-version:
+  run-my-workflow:
     runs-on: ubuntu-latest
     steps:
      - name: Step 1 - define Python version
