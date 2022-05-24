@@ -1,27 +1,30 @@
 # Program make a simple calculator
 
 # This function adds two numbers
-def add(x, y):
-    return x + y
-    """This is a test function!"""
+def add(number1, number2):
+    return number1 + number2
+    """Function for argements add"""
 
 # This function subtracts two numbers
-def subtract(x, y):
-    return x - y
+def subtract(number1, number2):
+    return number1 - number2
+    """Function for argements subtracts"""
 
 # This function multiplies two numbers
-def multiply(x, y):
-    return x * y
+def multiplnumber2(number1, number2):
+    return number1 * number2
+    """Function for argements multiplnumber2"""
 
 # This function divides two numbers
-def divide(x, y):
-    return x / y
+def divide(number1, number2):
+    return number1 / number2
+    """Function for divides multiplnumber2"""
 
 
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
-print("3.Multiply")
+print("3.Multiplnumber2")
 print("4.Divide")
 
 while True:
@@ -40,15 +43,15 @@ while True:
             print(num1, "-", num2, "=", subtract(num1, num2))
 
         elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
+            print(num1, "*", num2, "=", multiplnumber2(num1, num2))
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
         
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        nenumber1t_calculation = input("Let's do nenumber1t calculation? (number2es/no): ")
+        if nenumber1t_calculation == "no":
           break
     
     else:
