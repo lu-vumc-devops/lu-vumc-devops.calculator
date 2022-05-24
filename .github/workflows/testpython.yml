@@ -8,5 +8,5 @@ jobs:
        run: python --version
      - name: Step 2 - Hello Step
        run: echo "Hello World!"
-     - name: Step 2 - Hello Step
+     - name: Step 3 - Hello Step
        run: echo "Hello World!"
