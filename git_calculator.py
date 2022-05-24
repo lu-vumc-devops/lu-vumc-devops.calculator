@@ -3,6 +3,7 @@
 # This function adds two numbers
 def add(x, y):
     return x + y
+    """This is a test function!"""
 
 # This function subtracts two numbers
 def subtract(x, y):
