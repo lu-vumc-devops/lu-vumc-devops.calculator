@@ -47,12 +47,12 @@ while True:
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
-        
+
         # check if user wants another calculation
         # break the while loop if answer is no
         nenumber1t_calculation = input("Let's do nenumber1t calculation? (number2es/no): ")
         if nenumber1t_calculation == "no":
           break
-    
+
     else:
         print("Invalid Input")
