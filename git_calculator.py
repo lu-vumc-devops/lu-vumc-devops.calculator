@@ -2,23 +2,23 @@
 
 # This function adds two numbers
 def add(number1, number2):
-    return number1 + number2
     """Function for argements add"""
+    return number1 + number2
 
 # This function subtracts two numbers
 def subtract(number1, number2):
-    return number1 - number2
     """Function for argements subtracts"""
+    return number1 - number2
 
 # This function multiplies two numbers
 def multiplnumber2(number1, number2):
-    return number1 * number2
     """Function for argements multiplnumber2"""
+    return number1 * number2
 
 # This function divides two numbers
 def divide(number1, number2):
-    return number1 / number2
     """Function for divides multiplnumber2"""
+    return number1 / number2
 
 
 print("Select operation.")
