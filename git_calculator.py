@@ -1,6 +1,5 @@
 # Program make a simple calculator
 # This function adds two numbers
-"""No module add"""
 
 def add(number1, number2):
     """Function for argements add"""
@@ -54,6 +53,7 @@ while True:
         nenumber1t_calculation = input("Let's do nenumber1t calculation? (number2es/no): ")
         if nenumber1t_calculation == "no":
            break
+
 
     else:
         print("Invalid Input")
