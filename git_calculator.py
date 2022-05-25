@@ -1,8 +1,8 @@
 # Program make a simple calculator
-# BEGIN DATE: 23.05.2022
+# BEGIN DATE: 25.05.2022
 
 # This function adds two numbers
-def add(A, y):
+def add(x, y):
     return x + y
 
 # This function subtracts two numbers
@@ -18,8 +18,8 @@ def divide(x, y):
     return x / y
 
 # This function takes square
-def divide(x):
-    return x
+def seven(x):
+    return x + x + x
 
 
 print("Select operation.")
@@ -27,14 +27,14 @@ print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
-print("5.Sqrt")
+print("7.Sqrt")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4/5): ")
+    choice = input("Enter choice(1/2/3/4/7): ")
 
     # check if choice is one of the four options
-    if choice in ('1', '2', '3', '4'):
+    if choice in ('1', '2', '3', '4', '7'):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
@@ -50,8 +50,8 @@ while True:
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
             
-        elif choice == '5':
-            print(sqrt(num1))
+        elif choice == '7':
+            print(seven(num1))
         
         # check if user wants another calculation
         # break the while loop if answer is no
@@ -61,6 +61,3 @@ while True:
     
     else:
         print("Invalid Input")
-
-
-# END DATE: 23.05.2022
