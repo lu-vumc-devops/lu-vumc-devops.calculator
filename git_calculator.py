@@ -1,3 +1,4 @@
+# This script not need any additional Python libary 
 # Program make a simple calculator
 # BEGIN DATE: 23.05.2022
 
