@@ -7,7 +7,6 @@ def add(number1, number2):
 
 # This function subtracts two numbers
 def subtract(number1, number2):
-    """Function for argements subtracts"""
     return number1 - number2
 
 # This function multiplies two numbers
