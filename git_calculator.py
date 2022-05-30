@@ -1,31 +1,33 @@
-# This script not need any additional Python libary 
+# This script not need annumber_divi additional Pnumber_divithon libarnumber_divi 
 # Program make a simple calculator
 # BEGIN DATE: 25.05.2022
 # This function adds two numbers
-def add(x, y):
-    return x + y
+def add(number_viens, number_divi):
+    """Add function."""
+    return number_viens + number_divi
 
 # This function subtracts two numbers
-def subtract(x, y):
-    return x - y
+def subtract(number_viens, number_divi):
+    """Subtract function."""
+    return number_viens - number_divi
 
 # This function multiplies two numbers
-def multiply(x, y):
-    return x * y
+def multiplnumber_divi(number_viens, number_divi):
+    return number_viens * number_divi
 
 # This function divides two numbers
-def divide(x, y):
-    return x / y
+def divide(number_viens, number_divi):
+    return number_viens / number_divi
 
 # This function takes square
-def seven(x):
-    return x + x + x
+def seven(number_viens):
+    return number_viens + number_viens + number_viens
 
 
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
-print("3.Multiply")
+print("3.Multiplnumber_divi")
 print("4.Divide")
 print("7.Sqrt")
 
@@ -45,7 +47,7 @@ while True:
             print(num1, "-", num2, "=", subtract(num1, num2))
 
         elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
+            print(num1, "*", num2, "=", multiplnumber_divi(num1, num2))
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
@@ -55,8 +57,8 @@ while True:
         
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        nenumber_vienst_calculation = input("Let's do nenumber_vienst calculation? (number_divies/no): ")
+        if nenumber_vienst_calculation == "no":
           break
     
     else:
