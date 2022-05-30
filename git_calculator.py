@@ -1,7 +1,6 @@
 # This script not need any additional Python libary 
 # Program make a simple calculator
 # BEGIN DATE: 25.05.2022
-
 # This function adds two numbers
 def add(x, y):
     return x + y
