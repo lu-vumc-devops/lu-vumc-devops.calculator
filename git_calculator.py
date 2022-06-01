@@ -3,8 +3,8 @@
 
 # This function adds two numbers
 def add(A, y):
+    """Add function"""
     return x + y
-    """This is a test function!"""
 
 
 # This function subtracts two numbers
