@@ -4,7 +4,7 @@
 # This function adds two numbers
 def add(A, y):
     return x + y
-    """Define this function jfjfjfjfj"""
+    """This is a test function!"""
 
 
 # This function subtracts two numbers
