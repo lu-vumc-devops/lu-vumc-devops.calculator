@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: Macamies par github actions
 on: [push]
 jobs:
   run-my-workflow:
